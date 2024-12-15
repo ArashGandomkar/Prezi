@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Prevent Git from altering binary files
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.mp3 binary
+*.wav binary
